@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+*::-webkit-scrollbar {
+  display: none;
+  overflow: hidden;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#root {
+  display: flex;
+  min-height: 100vh;
+  animation: fadein 1.5s;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+}

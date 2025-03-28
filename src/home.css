@@ -1,0 +1,11 @@
+.Homemain {
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.paragraph {
+  width: 65%;
+}
